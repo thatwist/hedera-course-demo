@@ -28,7 +28,7 @@ const supplyKey = PrivateKey.generate();
 
 async function main() {
 
-  //CREATE ACCOUNTS FOR TREASURY AND ALICE
+  // //CREATE ACCOUNTS FOR TREASURY AND ALICE
   // const treasuryKey = PrivateKey.generate();
   // const treasuryAccTx = new AccountCreateTransaction() //Create the transaction
   //       .setKey(treasuryKey.publicKey)
@@ -50,8 +50,8 @@ async function main() {
 
   // //CREATE FUNGIBLE TOKEN (STABLECOIN)
   // let tokenCreateTx = await new TokenCreateTransaction()
-  //     .setTokenName("USD Bar")
-  //     .setTokenSymbol("USDB")
+  //     .setTokenName("KRW Stablecoin")
+  //     .setTokenSymbol("SKRW")
   //     .setTokenType(TokenType.FungibleCommon)
   //     .setDecimals(2)
   //     .setInitialSupply(10000)
